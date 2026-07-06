@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(npm pkg *)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\(JSON.stringify\\(p.dependencies\\), JSON.stringify\\(p.devDependencies\\)\\)\")",
+      "Bash(nohup npm run preview -- --port 4173)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4173/)",
+      "Bash(pkill -9 -f \"vite preview\")",
+      "Bash(curl -s -o /dev/null -m 2 http://localhost:4173/)",
+      "Bash(/home/sayouba/.claude/skills/gstack/browse/dist/browse js *)",
+      "Bash(/home/sayouba/.claude/skills/gstack/browse/dist/browse screenshot *)",
+      "Bash(curl -s \"https://api.github.com/users/sayouba2/repos?per_page=100\")",
+      "Bash(npx eslint *)",
+      "Bash(npm run *)"
+    ],
+    "additionalDirectories": [
+      "/home/sayouba/.gstack/projects/sayouba2-portfolio/designs/portfolio-onepage-20260706"
+    ]
+  }
+}
