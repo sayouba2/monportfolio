@@ -13,7 +13,18 @@
       "Bash(/home/sayouba/.claude/skills/gstack/browse/dist/browse screenshot *)",
       "Bash(curl -s \"https://api.github.com/users/sayouba2/repos?per_page=100\")",
       "Bash(npx eslint *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(git ls-remote *)",
+      "Bash(pkill -f \"git push deploy\")",
+      "Bash(pkill -f \"TENTATIVE\")",
+      "Bash(git commit --allow-empty -m 'chore: redéploiement pour lier le domaine portfolio.sayouba.com *)",
+      "Bash(git push *)",
+      "Bash(curl -sk -o /dev/null -w \"%{http_code}\" https://portfolio.sayouba.com/)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'feat: nouveau favicon </> assorti à l'\\\\''identité du site *)",
+      "Bash(xdg-open \"/tmp/claude-1000/-home-sayouba-Documents-projects-mon-portfolio/e62e1be9-777a-4fdf-8122-82113dd9b57d/scratchpad/favicons.html\")",
+      "Bash(xdg-open \"/tmp/claude-1000/-home-sayouba-Documents-projects-mon-portfolio/e62e1be9-777a-4fdf-8122-82113dd9b57d/scratchpad/favicons2.html\")",
+      "Bash(git commit -m 'feat: favicon terminal >_ choisi par Sayouba *)"
     ],
     "additionalDirectories": [
       "/home/sayouba/.gstack/projects/sayouba2-portfolio/designs/portfolio-onepage-20260706"
